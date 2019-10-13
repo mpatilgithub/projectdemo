@@ -14,7 +14,15 @@
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 		<jackson.databind-version>2.2.3</jackson.databind-version>
 	</properties>
-	
+	<distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>corp1</id>
+      <name>Corporate Repository</name>
+      <url>file://apps</url>
+      <layout>default</layout>
+    </repository>
+</distributionManagement>
 	<dependencies>
 		<!-- Jackson -->
 		<dependency>
