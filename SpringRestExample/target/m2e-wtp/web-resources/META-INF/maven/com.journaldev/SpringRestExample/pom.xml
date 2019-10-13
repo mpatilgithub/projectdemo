@@ -14,6 +14,16 @@
 		<org.slf4j-version>1.7.5</org.slf4j-version>
 		<jackson.databind-version>2.2.3</jackson.databind-version>
 	</properties>
+	<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <url>http://localhost:8084/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://localhost:8084/content/repositories/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 	<dependencies>
 		<!-- Jackson -->
 		<dependency>
